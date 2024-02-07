@@ -16,10 +16,10 @@ SELECT AVG(freight) as AvgOrders from Orders;
 
 --5
 
-SELECT avg (freight) from Orders where CustomerID='BOTTM';
+SELECT avg (freight) as AvgCustom from Orders where CustomerID='BOTTM';
 
 --6
-SELECT  avg (freight) from Orders group by CustomerID;
+SELECT  avg (freight) as AvgCustom2 from Orders group by CustomerID;
 
 --7
 
